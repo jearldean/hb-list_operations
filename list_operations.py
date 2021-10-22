@@ -166,8 +166,9 @@ def replace_middle(input_list):
     True
 
     """
+    # List Slice Assignment, Duh!
 
-    pass
+    input_list[2:-2] = [42, 37]
 
 
 def delete_third_and_seventh(input_list):
@@ -182,7 +183,7 @@ def delete_third_and_seventh(input_list):
 
     """
 
-    pass
+    del input_list[2:8:4]
 
 
 def delete_middle(input_list):
@@ -199,7 +200,7 @@ def delete_middle(input_list):
 
     """
 
-    pass
+    del input_list[2:-2]
 
 
 # This is the part were we actually run the doctests.
